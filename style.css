@@ -1,0 +1,115 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+    background-color: blanchedalmond;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+.container {
+    width: 480px;
+    background-color: rgb(74, 141, 228);
+    border-radius: 20px;
+    margin: 120px auto;
+    height: 500px;
+    overflow-y: scroll;
+
+    
+}
+
+#heading {
+    margin-left: 5rem;
+}
+
+#inputField {
+    width: 300px;
+    height: 45px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-left: 8px;
+    border-radius: 15px;
+    color: green;
+}
+#clearAll {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+
+
+
+#to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(37, 128, 233);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#nightMode {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+#dayMode {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.toggleNightMode {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    margin-left: 20px;
+}
+
+hr {
+    margin-bottom: 2px;
+}
+
+input {
+    background-color: rgb(90, 170, 236);
+    padding: 2px;
+    margin-left: 8px;
+    font-weight: 500;
+    border-radius: 15px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.notes {
+    color: black;
+}
+
